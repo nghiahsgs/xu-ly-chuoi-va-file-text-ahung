@@ -1,5 +1,548 @@
-vendor_guid,object_type,title,description,display_name,calculation_method,calculation_int,workflow_state,parent_guids,ratings,,,,,,,
-a,group,Parent group,parent group description,G-1,,,active,,,,,,,,,
-b,group,Child group,child group description,G-1.1,,,active,a,,,,,,,,
-c,outcome,Learning Standard,outcome description,LS-100,decaying_average,40,active,a b,3,Excellent,2,Better,1,Good,,
-
+vendor_guid,object_type,title,description,display_name,calculation_method,calculation_int,workflow_state,parent_guids,mastery_points,ratings,,,,,
+1,group,1 KIẾN THỨC VÀ LẬP LUẬN NGÀNH,,1,,,,,,,,,,,
+1.1,group,1.1 KIẾN THỨC TOÁN HỌC VÀ KHOA HỌC CƠ BẢN,,1.1,,,,1,,,,,,,
+1.1.1,group,1.1.1 Toán học (3.2),,1.1.1,,,,1.1,,,,,,,
+1.1.1_a,outcome,1.1.1.a,Diễn giải kiến thức đại số tuyến tính {a-S4},1.1.1_a,,,,1.1.1,3,5,Tốt,3,Đạt,0,Không đạt
+1.1.1_b,outcome,1.1.1.b,"Diễn giải kiến thức giải tích (giới hạn, đạo hàm, vi phân, tích phân, kỹ thuật cho hàm nhiều biến, các hàm đặc biệt) {a-S4}",1.1.1_b,,,,1.1.1,3,5,Tốt,3,Đạt,0,Không đạt
+1.1.1_c,outcome,1.1.1.c,Thực hiện sử dụng toán học để giải quyết các vấn đề {CP},1.1.1_c,,,,1.1.1,3,5,Tốt,3,Đạt,0,Không đạt
+1.1.1_d,outcome,1.1.1.d,Diễn giải chủ quan về tư duy toán học {b-S1},1.1.1_d,,,,1.1.1,3,5,Tốt,3,Đạt,0,Không đạt
+1.1.2,group,1.1.2 Vật lý (3.3),,1.1.2,,,,1.1,,,,,,,
+1.1.2_a,outcome,1.1.2.a,"Diễn giải kiến thức đại cương về cơ, nhiệt, điện và quang học trong giới hạn cổ điển {a-S4}",1.1.2_a,,,,1.1.2,3,5,Tốt,3,Đạt,0,Không đạt
+1.1.2_b,outcome,1.1.2.b,Diễn giải kiến thức sơ lược về vật lý hiện đại {a-S4},1.1.2_b,,,,1.1.2,3,5,Tốt,3,Đạt,0,Không đạt
+1.1.2_c,outcome,1.1.2.c,Thực hiện sử dụng vật lý để giải quyết các vấn đề {CP},1.1.2_c,,,,1.1.2,3,5,Tốt,3,Đạt,0,Không đạt
+1.1.2_d,outcome,1.1.2.d,Tiến hành thực hành {a-E4},1.1.2_d,,,,1.1.2,3,5,Tốt,3,Đạt,0,Không đạt
+1.1.2_e,outcome,1.1.2.e,Diễn giải chủ quan về tư duy vật lý {b-S1},1.1.2_e,,,,1.1.2,3,5,Tốt,3,Đạt,0,Không đạt
+1.1.3,group,1.1.3 Hóa học (3.3),,1.1.3,,,,1.1,,,,,,,
+1.1.3_a,outcome,1.1.3.a,Diễn giải kiến thức cơ bản về hóa học và phản ứng hóa học {a-S4},1.1.3_a,,,,1.1.3,3,5,Tốt,3,Đạt,0,Không đạt
+1.1.3_b,outcome,1.1.3.b,"Kiến thức hóa cho vật liệu cấu trúc điện tử, liên kết hóa học trong kim loại, ceramics, bán dẫn và polymer {a-S4}",1.1.3_b,,,,1.1.3,3,5,Tốt,3,Đạt,0,Không đạt
+1.1.3_c,outcome,1.1.3.c,Thực hành giải các vấn đề hóa lý thuyết cơ bản {CP},1.1.3_c,,,,1.1.3,3,5,Tốt,3,Đạt,0,Không đạt
+1.1.3_d,outcome,1.1.3.d,Tiến hành các thực hành cơ bản {a-E4},1.1.3_d,,,,1.1.3,3,5,Tốt,3,Đạt,0,Không đạt
+1.1.4,group,1.1.4 Tin học và lập trình (3.1),,1.1.4,,,,1.1,,,,,,,
+1.1.4_a,outcome,1.1.4.a,"Diễn giải các khái niệm cơ bản như vòng lặp, rẽ nhánh điều kiện {a-S4}",1.1.4_a,,,,1.1.4,3,5,Tốt,3,Đạt,0,Không đạt
+1.1.4_b,outcome,1.1.4.b,"Diễn giải một số cấu trúc dữ liệu, hướng đối tượng {a-S4}",1.1.4_b,,,,1.1.4,3,5,Tốt,3,Đạt,0,Không đạt
+1.1.4_c,outcome,1.1.4.c,Chọn và sử dụng ngôn ngữ bậc cao (ví dụ như Python) {c-S2},1.1.4_c,,,,1.1.4,3,5,Tốt,3,Đạt,0,Không đạt
+1.1.4_d,outcome,1.1.4.d,Thực hành lập trình {CP},1.1.4_d,,,,1.1.4,3,5,Tốt,3,Đạt,0,Không đạt
+1.1.4_e,outcome,1.1.4.e,Thực hành xử lý số liệu dựa vào tin học {CP},1.1.4_e,,,,1.1.4,3,5,Tốt,3,Đạt,0,Không đạt
+1.1.4_f,outcome,1.1.4.f,"Trình bày kiến thức cơ bản về khoa học dữ liệu, học máy và trí tuệ nhân tạo {a-S4}",1.1.4_f,,,,1.1.4,3,5,Tốt,3,Đạt,0,Không đạt
+1.1.5,group,1.1.5 Điện tử (3.3),,1.1.5,,,,1.1,,,,,,,
+1.1.5_a,outcome,1.1.5.a,"Diễn giải các kiến thức và ứng dụng của các linh kiện cơ bản như điện trở, tụ điện, cuộn cảm, diode, transistor ... {a-S4}",1.1.5_a,,,,1.1.5,3,5,Tốt,3,Đạt,0,Không đạt
+1.1.5_b,outcome,1.1.5.b,Thực hành thiết kế và xây dựng mạch đo {CP},1.1.5_b,,,,1.1.5,3,5,Tốt,3,Đạt,0,Không đạt
+1.2,group,1.2 KIẾN THỨC CƠ SỞ KỸ THUẬT CỐT LÕI,,1.2,,,,1,,,,,,,
+1.2.1,outcome,1.2.1,"Diễn giải các kiến thức đại cương về khoa học và kỹ thuật vật liệu cấu trúc nguyên tử, liên kết, giản đồ pha, giới thiệu các loại vật liệu, các quá trình hóa lý trong vật liệu, tổng hợp chế tạo vật liệu (3.4) {a-S4}",1.2.1,,,,1.2,3,5,Tốt,3,Đạt,0,Không đạt
+1.2.2,outcome,1.2.2,"Thảo luậngiải thích các quá trình biến đổi vi cấu trúc của vật liệu như khuếch tán, biến dạng, nứt vỡ, chuyển pha (3.2) {a-S4}",1.2.2,,,,1.2,3,5,Tốt,3,Đạt,0,Không đạt
+1.2.3,outcome,1.2.3,"Thảo luậngiải thích các nguyên lý của nhiệt động lực học như sự chuyển pha theo nhiệt độ, tính thống kê và các đại lượng nhiệt động, có thể giải thích và ứng dụng trong vật liệu (3.1){a-S4}",1.2.3,,,,1.2,3,5,Tốt,3,Đạt,0,Không đạt
+1.2.4,outcome,1.2.4,"Sử dụng các kỹ thuật và thiết bị để kiểm tra, đánh giá cấu trúc và đo đạc các thuộc tính của vật liệu. VD XRD, OM, SEM, EDS (3.4) {a-S4}",1.2.4,,,,1.2,3,5,Tốt,3,Đạt,0,Không đạt
+1.2.5,outcome,1.2.5,"Thảo luậngiải thích các kỹ thuật cơ bản về mô phỏng, tính toán, xử lý số liệu, và các kỹ thuật trong khoa học dữ liệu để xử lý các số liệu lớn trong lĩnh vực khoa học và kỹ thuật vật liệu. (2.8) {a-S4}",1.2.5,,,,1.2,3,5,Tốt,3,Đạt,0,Không đạt
+1.2.6,outcome,1.2.6,"Thảo luận về ảnh hưởng của các trường ngoài (như sóng điện từ (ánh sáng), điện trường, từ trường) lên vật liệu. (2.7) {a-S4}",1.2.6,,,,1.2,3,5,Tốt,3,Đạt,0,Không đạt
+1.2.7,outcome,1.2.7,"Diễn giải các kiến thức về cơ tính trong vật liệu như sự biến dạng, sự mỏi của vật liệu, nứt vỡ hoặc phá hủy vật liệu. Có thể xử lý các bài toán đơn giản về cơ tính trong vật liệu. (3.1){a-S4}",1.2.7,,,,1.2,3,5,Tốt,3,Đạt,0,Không đạt
+1.2.8,outcome,1.2.8,"Diễn giải các kiến thức cơ bản về vật lý lượng tử, vật lý thống kê, vật lý chất rắn ứng dụng cho khoa học vật liệu. (3.0) {a-S4}",1.2.8,,,,1.2,3,5,Tốt,3,Đạt,0,Không đạt
+1.2.9,group,1.2.9 Thực nghiệm cơ bản (3.7),,1.2.9,,,,1.2,,,,,,,
+1.2.9_a,outcome,1.2.9.a,"Thực hành sử dụng các máy móc, dụng cụ thí nghiệm {CP}",1.2.9_a,,,,1.2.9,3,5,Tốt,3,Đạt,0,Không đạt
+1.2.9_b,outcome,1.2.9.b,"Đánh giá tầm quan trọng của các thí nghiệm, máy móc, thiết bị {a-E4}",1.2.9_b,,,,1.2.9,3,5,Tốt,3,Đạt,0,Không đạt
+1.3,group,1.3 KIẾN THỨC CƠ SỞ KỸ THUẬT NÂNG CAO,,1.3,,,,1,,,,,,,
+1.3.1,outcome,1.3.1,"Tiến hành thí nghiệm cho một quy trình chế tạo, xử lý, đo đạc một số loại vật liệu đơn giản (3.7) {a-E4}",1.3.1,,,,1.3,3,5,Tốt,3,Đạt,0,Không đạt
+1.3.2,outcome,1.3.2,"Tiến hành thí nghiệmthực hành liên ngành khi kết hợp làm việc giữa công nghệ vật liệu và các ngành kỹ thuật khác như điện tử, công nghệ thông tin. (3.4) {a-E4}",1.3.2,,,,1.3,3,5,Tốt,3,Đạt,0,Không đạt
+1.3.3,group,1.3.3 Định hướng vật liệu điện tử,,1.3.3,,,,1.3,,,,,,,
+1.3.3_a,outcome,1.3.3.a,Diễn giải các khái niệm và tính chất cơ bản của vật liệu và linh kiện điện tử (3.0) {a-S4},1.3.3_a,,,,1.3.3,3,5,Tốt,3,Đạt,0,Không đạt
+1.3.3_b,outcome,1.3.3.b,Thảo luậngiải thích các vật liệu điện tử lưu trữ và chuyển hóa năng lượng (3.2) {a-E1},1.3.3_b,,,,1.3.3,3,5,Tốt,3,Đạt,0,Không đạt
+1.3.3_c,outcome,1.3.3.c,"Thảo luậngiải thích công nghệ chế tạo, các phương pháp khảo sát (3.0) {a-S4}",1.3.3_c,,,,1.3.3,3,5,Tốt,3,Đạt,0,Không đạt
+1.3.3_d,outcome,1.3.3.d,Thảo luậngiải thích các ứng dụng ở kích thước micro và nano (3.2) {a-S1},1.3.3_d,,,,1.3.3,3,5,Tốt,3,Đạt,0,Không đạt
+1.3.4,group,1.3.4 Định hướng polymer và composite,,1.3.4,,,,1.3,,,,,,,
+1.3.4_a,outcome,1.3.4.a,"Diễn giải các kiến thức nâng cao về hóa vô cơ, hóa hữu cơ, hóa phân tích (3.3) {a-S4}",1.3.4_a,,,,1.3.4,3,5,Tốt,3,Đạt,0,Không đạt
+1.3.4_b,outcome,1.3.4.b,Diễn giải về hóa học và hóa lý cho polymer (3.2) {a-S4},1.3.4_b,,,,1.3.4,3,5,Tốt,3,Đạt,0,Không đạt
+1.3.4_c,outcome,1.3.4.c,"Thực hành các kỹ thuật và công nghệ chất dẻo, cao su, vật liệu polymer-composite (3.4) {a-S3}",1.3.4_c,,,,1.3.4,3,5,Tốt,3,Đạt,0,Không đạt
+1.3.4_d,outcome,1.3.4.d,Thảo luậntrình bày các công nghệ về chất tạo màng và sơn (3.2) {a-S3},1.3.4_d,,,,1.3.4,3,5,Tốt,3,Đạt,0,Không đạt
+1.3.5,group,1.3.5 Định hướng vật liệu gốm (ceramics) ,,1.3.5,,,,1.3,,,,,,,
+1.3.5_a,outcome,1.3.5.a,Diễn giải các kiến thức nâng cao về cấu trúc hóa học và tinh thể (3.4) {a-S4},1.3.5_a,,,,1.3.5,3,5,Tốt,3,Đạt,0,Không đạt
+1.3.5_b,outcome,1.3.5.b,Trình bày các kiến thức nâng cao về chuyển pha (3.2) {a-S4},1.3.5_b,,,,1.3.5,3,5,Tốt,3,Đạt,0,Không đạt
+1.3.5_c,outcome,1.3.5.c,Trình bày các tính chất cơ nhiệt điện từ cho gốm (3.0) {a-S4},1.3.5_c,,,,1.3.5,3,5,Tốt,3,Đạt,0,Không đạt
+1.3.5_d,outcome,1.3.5.d,Thảo luận các công nghệ và phương pháp chế tạo gốm sứ (3.3) {a-S3},1.3.5_d,,,,1.3.5,3,5,Tốt,3,Đạt,0,Không đạt
+1.3.6,group,1.3.6 Định hướng vật liệu y sinh ,,1.3.6,,,,1.3,,,,,,,
+1.3.6_a,outcome,1.3.6.a,Diễn giải các kiến thức về hóa sinh cho vật liệu y sinh (3.1) {a-S4},1.3.6_a,,,,1.3.6,3,5,Tốt,3,Đạt,0,Không đạt
+1.3.6_b,outcome,1.3.6.b,Trình bày các kiến thức về sinh học cho vật liệu y sinh (3.0) {a-S4},1.3.6_b,,,,1.3.6,3,5,Tốt,3,Đạt,0,Không đạt
+1.3.6_c,outcome,1.3.6.c,Trình bày các kiến thức về sư tương thích sinh học của vật liệu (3.2) {a-S4},1.3.6_c,,,,1.3.6,3,5,Tốt,3,Đạt,0,Không đạt
+1.3.6_d,outcome,1.3.6.d,Thảo luận các quá trình chế tạo vật liệu y sinh (3.0) {a-S3},1.3.6_d,,,,1.3.6,3,5,Tốt,3,Đạt,0,Không đạt
+1.3.7,group,1.3.7 Định hướng vật liệu năng lượng ,,1.3.7,,,,1.3,,,,,,,
+1.3.7_a,outcome,1.3.7.a,"Diễn giải các khái niệm cơ bản về kỹ thuật năng lượng, năng lượng tái tạo (3.1) {a-S4}",1.3.7_a,,,,1.3.7,3,5,Tốt,3,Đạt,0,Không đạt
+1.3.7_b,outcome,1.3.7.b,Diễn giải các kiến thức về vật liệu nano cho năng lượng mặt trời (3.1) {a-S4},1.3.7_b,,,,1.3.7,3,5,Tốt,3,Đạt,0,Không đạt
+1.3.7_c,outcome,1.3.7.c,Thảo luận về vật liệu lưu trữ và chuyển hóa năng lượng (3.0) {a-S4},1.3.7_c,,,,1.3.7,3,5,Tốt,3,Đạt,0,Không đạt
+1.3.7_d,outcome,1.3.7.d,Trình bày kiến thức và kỹ năng khoa học vật liệu ứng dụng cho kỹ thuật năng lượng (2.9) {a-S4},1.3.7_d,,,,1.3.7,3,5,Tốt,3,Đạt,0,Không đạt
+2,group,2 KỸ NĂNG VÀ PHẨM CHẤT CÁ NHÂN VÀ NGHỀ NGHIỆP,,2,,,,,,,,,,,
+2.1,group,2.1 LẬP LUẬN PHÂN TÍCH VÀ GIẢI QUYẾT VẤN ĐỀ (3.4),,2.1,,,,2,,,,,,,
+2.1.1,group,2.1.1 Xác định và nêu vấn đề (3.4),,2.1.1,,,,2.1,,,,,,,
+2.1.1_a,outcome,2.1.1.a,Xác địnhphân loại dữ liệu và dấu hiệu {c-E1},2.1.1_a,,,,2.1.1,3,5,Tốt,3,Đạt,0,Không đạt
+2.1.1_b,outcome,2.1.1.b,Thảo luận các giả định và những nguồn định kiến {a-E1},2.1.1_b,,,,2.1.1,3,5,Tốt,3,Đạt,0,Không đạt
+2.1.1_c,outcome,2.1.1.c,Giải quyết các vấn đề được ưu tiên đối với mục tiêu chung {CP},2.1.1_c,,,,2.1.1,3,5,Tốt,3,Đạt,0,Không đạt
+2.1.1_d,outcome,2.1.1.d,"Chọn các kế hoạch giải quyết vấn đề (mô hình phối hợp, các giải pháp giải tích và số, phân tích định tính, thử nghiệm và xem xét các yếu tố bất định) {b-S2}",2.1.1_d,,,,2.1.1,3,5,Tốt,3,Đạt,0,Không đạt
+2.1.2,group,2.1.2 Mô hình hóa (3.4),,2.1.2,,,,2.1,,,,,,,
+2.1.2_a,outcome,2.1.2.a,Xác định các giả định để đơn giản hóa các hệ thống và môi trường phức hợp {c-S4},2.1.2_a,,,,2.1.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.1.2_b,outcome,2.1.2.b,"Áp dụng các mô hình khái niệm và định tính {c-S2, c-S1}",2.1.2_b,,,,2.1.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.1.2_c,outcome,2.1.2.c,"Áp dụng các mô hình định lượng và mô phỏng {c-S2, c-S1}",2.1.2_c,,,,2.1.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.1.3,group,2.1.3 Ước lượng và phân tích định tính (3.4),,2.1.3,,,,2.1,,,,,,,
+2.1.3_a,outcome,2.1.3.a,"Giải thích chủ quan các biên độ, giới hạn và khuynh hướng {b-E3}",2.1.3_a,,,,2.1.3,3,5,Tốt,3,Đạt,0,Không đạt
+2.1.3_b,outcome,2.1.3.b,"Áp dụng các cách kiểm tra về tính nhất quán và lỗi (giới hạn, đơn vị, v.v.) {c-S1}",2.1.3_b,,,,2.1.3,3,5,Tốt,3,Đạt,0,Không đạt
+2.1.3_c,outcome,2.1.3.c,Tiến hành tổng quát hóa của các giải pháp phân tích {CP},2.1.3_c,,,,2.1.3,3,5,Tốt,3,Đạt,0,Không đạt
+2.1.4,group,2.1.4 Phân tích với các yếu tố bất định (3.4),,2.1.4,,,,2.1,,,,,,,
+2.1.4_a,outcome,2.1.4.a,Xác định các thông tin không hoàn chỉnh và mơ hồ {c-E3},2.1.4_a,,,,2.1.4,3,5,Tốt,3,Đạt,0,Không đạt
+2.1.4_b,outcome,2.1.4.b,Giải thích theo quan điểm cá nhân các mô hình xác suất và thống kê sự kiện và trình tự {b-S1},2.1.4_b,,,,2.1.4,3,5,Tốt,3,Đạt,0,Không đạt
+2.1.4_c,outcome,2.1.4.c,Giải thích theo quan điểm cá nhân các phân tích về chi phí-lợi ích kỹ thuật và rủi ro {b-S3},2.1.4_c,,,,2.1.4,3,5,Tốt,3,Đạt,0,Không đạt
+2.1.4_d,outcome,2.1.4.d,Thực hiện các phân tích về quyết định {a-S3},2.1.4_d,,,,2.1.4,3,5,Tốt,3,Đạt,0,Không đạt
+2.1.4_e,outcome,2.1.4.e,Chuẩn bị các giới hạn và mức độ dự phòng {c-S5},2.1.4_e,,,,2.1.4,3,5,Tốt,3,Đạt,0,Không đạt
+2.1.5,group,2.1.5 Giải pháp và đề xuất (3.4),,2.1.5,,,,2.1,,,,,,,
+2.1.5_a,outcome,2.1.5.a,Lựa chọn các giải pháp cho vấn đề {b-S2},2.1.5_a,,,,2.1.5,3,5,Tốt,3,Đạt,0,Không đạt
+2.1.5_b,outcome,2.1.5.b,Phân tích các kết quả quan trọng của các giải pháp và các dữ liệu dùng để kiểm tra {c-E1},2.1.5_b,,,,2.1.5,3,5,Tốt,3,Đạt,0,Không đạt
+2.1.5_c,outcome,2.1.5.c,"Thảo luận các khác biệt trong các kết quả {a-E1, a-E2}",2.1.5_c,,,,2.1.5,3,5,Tốt,3,Đạt,0,Không đạt
+2.1.5_d,outcome,2.1.5.d,Giải thích chủ quan các đề xuất tóm lược {b-S2},2.1.5_d,,,,2.1.5,3,5,Tốt,3,Đạt,0,Không đạt
+2.1.5_e,outcome,2.1.5.e,Thảo luận những cải tiến có thể trong quá trình giải quyết vấn đề {a-E1},2.1.5_e,,,,2.1.5,3,5,Tốt,3,Đạt,0,Không đạt
+2.2,group,"2.2 THỬ NGHIỆM, NGHIÊN CỨU VÀ KHÁM PHÁ TRI THỨC (3.3)",,2.2,,,,2,,,,,,,
+2.2.1,group,2.2.1 Nêu giả thuyết (3.3),,2.2.1,,,,2.2,,,,,,,
+2.2.1_a,outcome,2.2.1.a,Lựa chọn những câu hỏi quan trọng để xem xét trả lời {c-S2},2.2.1_a,,,,2.2.1,3,5,Tốt,3,Đạt,0,Không đạt
+2.2.1_b,outcome,2.2.1.b,Lựa chọn những giả thuyết cần kiểm tra {c-S2},2.2.1_b,,,,2.2.1,3,5,Tốt,3,Đạt,0,Không đạt
+2.2.1_c,outcome,2.2.1.c,Thảo luận về đối chứng và các nhóm đối chứng {a-S4},2.2.1_c,,,,2.2.1,3,5,Tốt,3,Đạt,0,Không đạt
+2.2.2,group,2.2.2 Khảo sát qua tài liệu và thông tin điện tử (3.3),,2.2.2,,,,2.2,,,,,,,
+2.2.2_a,outcome,2.2.2.a,Lựa chọn các chiến lược nghiên cứu tài liệu và truyền thông {a-S2},2.2.2_a,,,,2.2.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.2.2_b,outcome,2.2.2.b,"Thưc hiện tìm kiếm và xác định thông tin qua thư viện, công cụ trực tuyến và cơ sở dữ liệu {CP}",2.2.2_b,,,,2.2.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.2.2_c,outcome,2.2.2.c,Tiến hành sắp xếp và phân loại thông tin chính yếu {CP},2.2.2_c,,,,2.2.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.2.2_d,outcome,2.2.2.d,Thảo luận về chất lượng và độ tin cậy của thông tin {a-E3},2.2.2_d,,,,2.2.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.2.2_e,outcome,2.2.2.e,Xác định những nội dung hữu ích và đổi mới hàm chứa trong thông tin {c-E2},2.2.2_e,,,,2.2.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.2.2_f,outcome,2.2.2.f,Phân loại những vấn đề nghiên cứu chưa được trả lời {c-E2},2.2.2_f,,,,2.2.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.2.2_g,outcome,2.2.2.g,Liệt kê những trích dẫn về tài liệu tham khảo {c-E1},2.2.2_g,,,,2.2.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.2.3,group,2.2.3 Điều tra qua thí nghiệm (3.3),,2.2.3,,,,2.2,,,,,,,
+2.2.3_a,outcome,2.2.3.a,Thảo luận về khái niệm và chiến lược thí nghiệm {a-S2},2.2.3_a,,,,2.2.3,3,5,Tốt,3,Đạt,0,Không đạt
+2.2.3_b,outcome,2.2.3.b,Thảo luận về những đề phòng khi thí nghiệm với con người {a-S3},2.2.3_b,,,,2.2.3,3,5,Tốt,3,Đạt,0,Không đạt
+2.2.3_c,outcome,2.2.3.c,Thảo luận về nghiên cứu dựa trên các phương pháp khoa học xã hội {CP},2.2.3_c,,,,2.2.3,3,5,Tốt,3,Đạt,0,Không đạt
+2.2.3_d,outcome,2.2.3.d,Tiến hành xây dựng thí nghiệm {CP},2.2.3_d,,,,2.2.3,3,5,Tốt,3,Đạt,0,Không đạt
+2.2.3_e,outcome,2.2.3.e,Chuẩn bị các biên bản và các thủ tục thí nghiệm {b-S3},2.2.3_e,,,,2.2.3,3,5,Tốt,3,Đạt,0,Không đạt
+2.2.3_f,outcome,2.2.3.f,Tiến hành các đo đạc thực nghiệm {c-S3},2.2.3_f,,,,2.2.3,3,5,Tốt,3,Đạt,0,Không đạt
+2.2.3_g,outcome,2.2.3.g,Trình bày dữ liệu thực nghiệm {b-E1},2.2.3_g,,,,2.2.3,3,5,Tốt,3,Đạt,0,Không đạt
+2.2.3_h,outcome,2.2.3.h,Thảo luận dữ liệu thực nghiệm so với những mô hình có sẵn {a-E2},2.2.3_h,,,,2.2.3,3,5,Tốt,3,Đạt,0,Không đạt
+2.2.4,group,2.2.4 Kiểm tra và bảo vệ giả thuyết (3.3),,2.2.4,,,,2.2,,,,,,,
+2.2.4_a,outcome,2.2.4.a,Phân tích tính hiệu lực về thống kê của dữ liệu {a-E1},2.2.4_a,,,,2.2.4,3,5,Tốt,3,Đạt,0,Không đạt
+2.2.4_b,outcome,2.2.4.b,Thảo luận những giới hạn của dữ liệu được sử dụng {a-E1},2.2.4_b,,,,2.2.4,3,5,Tốt,3,Đạt,0,Không đạt
+2.2.4_c,outcome,2.2.4.c,"Trình bày các kết luận, dữ liệu hỗ trợ, các nhu cầu và giá trị {b-S5}",2.2.4_c,,,,2.2.4,3,5,Tốt,3,Đạt,0,Không đạt
+2.2.4_d,outcome,2.2.4.d,Thảo luận những cải tiến có thể có trong quá trình khám phá tri thức {a-E1},2.2.4_d,,,,2.2.4,3,5,Tốt,3,Đạt,0,Không đạt
+2.3,group,2.3 TƯ DUY TẦM HỆ THỐNG (3.2),,2.3,,,,2,,,,,,,
+2.3.1,group,2.3.1 Tư duy toàn cục (3.2),,2.3.1,,,,2.3,,,,,,,
+2.3.1_a,outcome,2.3.1.a,"Xác định và định nghĩa hệ thống, chức năng và sự vận hành, và các thành phần {c-E1}",2.3.1_a,,,,2.3.1,3,5,Tốt,3,Đạt,0,Không đạt
+2.3.1_b,outcome,2.3.1.b,Sử dụng những phương pháp tiếp cận liên ngành đảm bảo hệ thống được hiểu từ mọi phía liên quan {c-E1},2.3.1_b,,,,2.3.1,3,5,Tốt,3,Đạt,0,Không đạt
+2.3.1_c,outcome,2.3.1.c,"Xác định bối cảnh xã hội, doanh nghiệp và công nghệ của hệ thống {c-E1}",2.3.1_c,,,,2.3.1,3,5,Tốt,3,Đạt,0,Không đạt
+2.3.1_d,outcome,2.3.1.d,"Xác định những tương tác bên ngoài tới hệ thống, và tác động vận hành của hệ thống {c-E1}",2.3.1_d,,,,2.3.1,3,5,Tốt,3,Đạt,0,Không đạt
+2.3.2,group,2.3.2 Sự nảy sinh và tương tác trong hệ thống (3.2),,2.3.2,,,,2.3,,,,,,,
+2.3.2_a,outcome,2.3.2.a,Thảo luận những khái quát cần thiết để định nghĩa và mô hình hóa các thực thể hoặc thành phần của hệ thống {a-S2},2.3.2_a,,,,2.3.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.3.2_b,outcome,2.3.2.b,"Xác định những mối liên hệ, tương tác và giao diện quan trọng giữa các thành phần {c-E1}",2.3.2_b,,,,2.3.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.3.2_c,outcome,2.3.2.c,Xác định các đặc tính chức năng và vận hành (chủ ý và không chủ ý) phát sinh từ hệ thống {c-S2},2.3.2_c,,,,2.3.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.3.2_d,outcome,2.3.2.d,Nhận biết sự thích ứng tiến triển theo thời gian {c-S5},2.3.2_d,,,,2.3.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.3.3,group,2.3.3 Sắp xếp trình tự ưu tiên và tập trung (3.2),,2.3.3,,,,2.3,,,,,,,
+2.3.3_a,outcome,2.3.3.a,Xác định và phân loại tất cả các nhân tố liên quan đến toàn hệ thống {c-E2},2.3.3_a,,,,2.3.3,3,5,Tốt,3,Đạt,0,Không đạt
+2.3.3_b,outcome,2.3.3.b,Xác định các nhân tố chính yếu từ trong hệ thống {c-E2},2.3.3_b,,,,2.3.3,3,5,Tốt,3,Đạt,0,Không đạt
+2.3.3_c,outcome,2.3.3.c,Giải thích sự phân bổ năng lượng và nguồn lực để giải quyết các vấn đề trọng yếu {a-S5},2.3.3_c,,,,2.3.3,3,5,Tốt,3,Đạt,0,Không đạt
+2.3.4,group,"2.3.4 Dung hòa, đánh giá và cân bằng trong giải quyết (3.2)",,2.3.4,,,,2.3,,,,,,,
+2.3.4_a,outcome,2.3.4.a,Xác định mâu thuẫn và các nhân tố để giải quyết bằng cách dung hòa {c-E2},2.3.4_a,,,,2.3.4,3,5,Tốt,3,Đạt,0,Không đạt
+2.3.4_b,outcome,2.3.4.b,"Chọn và sử dụng các giải pháp để cân bằng các nhân tố khác nhau, giải quyết các mâu thuẫn và tối ưu hóa toàn bộ hệ thống {b-S2, b-S4}",2.3.4_b,,,,2.3.4,3,5,Tốt,3,Đạt,0,Không đạt
+2.3.4_c,outcome,2.3.4.c,Miêu tả các giải pháp linh hoạt so với các giải pháp tối ưu trong suốt vòng đời hệ thống {a-S2},2.3.4_c,,,,2.3.4,3,5,Tốt,3,Đạt,0,Không đạt
+2.3.4_d,outcome,2.3.4.d,Thảo luận những cải tiến có thể trong tư duy tầm hệ thống được sử dụng {a-E1},2.3.4_d,,,,2.3.4,3,5,Tốt,3,Đạt,0,Không đạt
+2.4,group,"2.4 THÁI ĐỘ, TƯ TƯỞNG, VÀ HỌC TẬP (3.6)",,2.4,,,,2,,,,,,,
+2.4.1,group,2.4.1 Sáng kiến và sẵn sàng quyết định chấp nhận rủi ro (3.6),,2.4.1,,,,2.4,,,,,,,
+2.4.1_a,outcome,2.4.1.a,Phân tích các nhu cầu và cơ hội cho sáng kiến {c-E1},2.4.1_a,,,,2.4.1,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.1_b,outcome,2.4.1.b,"Sẵn sàng tham gia lãnh đạo trong những nỗ lực mới, với khuyng hướng hành động đúng đắn {A}",2.4.1_b,,,,2.4.1,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.1_c,outcome,2.4.1.c,Lựa chọn các quyết định dựa trên thông tin sẵn có {a-S2},2.4.1_c,,,,2.4.1,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.1_d,outcome,2.4.1.d,Thảo luận về phát triển một quá trình hoạt động {CP},2.4.1_d,,,,2.4.1,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.1_e,outcome,2.4.1.e,Sẵn sàng thảo luận về các lợi ích tiềm năng và rủi ro của một hành động hay quyết định {A},2.4.1_e,,,,2.4.1,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.2,group,"2.4.2 Kiên trì, sẵn sàng và quyết tâm, tháo vát và linh hoạt (3.6)",,2.4.2,,,,2.4,,,,,,,
+2.4.2_a,outcome,2.4.2.a,Thể hiện ý thức trách nhiệm về kết quả {A},2.4.2_a,,,,2.4.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.2_b,outcome,2.4.2.b,"Thể hiện sự tự tin, lòng can đảm, và niềm đam mê {A}",2.4.2_b,,,,2.4.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.2_c,outcome,2.4.2.c,Thể hiện sự quyết tâm hoàn thành mục tiêu {A},2.4.2_c,,,,2.4.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.2_d,outcome,2.4.2.d,"Biết và thảo luận về tầm quan trọng của làm việc chăm chỉ, có cường độ cao, và chú ý đến chi tiết {A}",2.4.2_d,,,,2.4.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.2_e,outcome,2.4.2.e,"Thể hiện hành động dứt khoát, cung cấp các kết quả, và báo cáo về các hoạt động {A}",2.4.2_e,,,,2.4.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.2_f,outcome,2.4.2.f,Sẵn sàng thảo luận về thích ứng với thay đổi {A},2.4.2_f,,,,2.4.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.2_g,outcome,2.4.2.g,Sử dụng khéo léo các nguồn lực theo tình hình {CP},2.4.2_g,,,,2.4.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.2_h,outcome,2.4.2.h,"Thể hiện sự sẵn sàng, tự nguyện và khả năng làm việc độc lập {A}",2.4.2_h,,,,2.4.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.2_i,outcome,2.4.2.i,"Thể hiện sự sẵn sàng làm việc với người khác, xem xét và bao quát các quan điểm khác nhau {A}",2.4.2_i,,,,2.4.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.2_j,outcome,2.4.2.j,"Hiểu và có thể nói chuyện để chấp nhận đóng góp, phê bình và sẵn sàng để suy ngẫm và phản hồi {A}",2.4.2_j,,,,2.4.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.2_k,outcome,2.4.2.k,Thảo luận về sự cân bằng giữa cuộc sống cá nhân và nghề nghiệp {A},2.4.2_k,,,,2.4.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.3,group,2.4.3 Tư duy sáng tạo (3.6),,2.4.3,,,,2.4,,,,,,,
+2.4.3_a,outcome,2.4.3.a,Thảo luận về khái niệm hóa và trừu tượng hóa {CP},2.4.3_a,,,,2.4.3,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.3_b,outcome,2.4.3.b,Giải thích về tổng hợp và tổng quát hóa {CP},2.4.3_b,,,,2.4.3,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.3_c,outcome,2.4.3.c,Trình bày về quá trình phát minh {CP},2.4.3_c,,,,2.4.3,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.3_d,outcome,2.4.3.d,"So sánh vai trò của sáng tạo trong nghệ thuật, khoa học, nhân văn, và công nghệ {a-E2}",2.4.3_d,,,,2.4.3,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.4,group,2.4.4 Tư duy suy xét (3.6),,2.4.4,,,,2.4,,,,,,,
+2.4.4_a,outcome,2.4.4.a,Phân tích mục đích và phát biểu của một vấn đề {b-E1},2.4.4_a,,,,2.4.4,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.4_b,outcome,2.4.4.b,Lựa chọn các giả định {c-S2},2.4.4_b,,,,2.4.4,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.4_c,outcome,2.4.4.c,Xác định những lý lẽ logic và các giải pháp {c-E4},2.4.4_c,,,,2.4.4,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.4_d,outcome,2.4.4.d,"Phân tích các bằng chứng hỗ trợ, sự thật và thông tin {c-E1}",2.4.4_d,,,,2.4.4,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.4_e,outcome,2.4.4.e,So sánh các quan điểm và lý thuyết {c-E2},2.4.4_e,,,,2.4.4,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.4_f,outcome,2.4.4.f,Xác định các kết luận và ý nghĩa {c-E1},2.4.4_f,,,,2.4.4,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.4_g,outcome,2.4.4.g,Tiến hành suy ngẫm về chất lượng tư duy {CP},2.4.4_g,,,,2.4.4,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.5,group,"2.4.5 Sự tự nhận thức, nhận thức về kiến thức và tích hợp kiến thức (3.6)",,2.4.5,,,,2.4,,,,,,,
+2.4.5_a,outcome,2.4.5.a,"Trình bày các kỹ năng, mối quan tâm, điểm mạnh, và điểm yếu của bản thân {a-E1}",2.4.5_a,,,,2.4.5,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.5_b,outcome,2.4.5.b,"Sẵn sàng thảo luận về giới hạn khả năng của bản thân, và trách nhiệm cho sự tiến bộ của bản thân để khắc phục những điểm yếu quan trọng {A}",2.4.5_b,,,,2.4.5,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.5_c,outcome,2.4.5.c,Sẵn sàng thảo luận về tầm quan trọng của cả độ sâu và độ rộng của kiến thức {A},2.4.5_c,,,,2.4.5,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.5_d,outcome,2.4.5.d,Tìm hiểu về xác định việc tư duy của bản thân có hiệu quả như thế nào và theo cách nào {b-E1},2.4.5_d,,,,2.4.5,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.5_e,outcome,2.4.5.e,Phân tích sự liên kết kiến thức với nhau và xác định cấu trúc của kiến thức {a-E1},2.4.5_e,,,,2.4.5,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.6,group,2.4.6 Học tập và rèn luyện suốt đời (3.6),,2.4.6,,,,2.4,,,,,,,
+2.4.6_a,outcome,2.4.6.a,Thể hiện động lực tự rèn luyện thường xuyên {A},2.4.6_a,,,,2.4.6,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.6_b,outcome,2.4.6.b,Thực hiện các kỹ năng tự rèn luyện {a-S3},2.4.6_b,,,,2.4.6,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.6_c,outcome,2.4.6.c,Tiến hành các cách học riêng của bản thân {a-S3},2.4.6_c,,,,2.4.6,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.6_d,outcome,2.4.6.d,Thảo luận các mối quan hệ với người hướng dẫn {CP},2.4.6_d,,,,2.4.6,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.6_e,outcome,2.4.6.e,Tham gia giúp người khác trong học tập {A},2.4.6_e,,,,2.4.6,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.7,group,2.4.7 Quản lý thời gian và nguồn lực (3.6),,2.4.7,,,,2.4,,,,,,,
+2.4.7_a,outcome,2.4.7.a,Tiến hành sắp xếp nhiệm vụ theo thứ tự ưu tiên {CP},2.4.7_a,,,,2.4.7,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.7_b,outcome,2.4.7.b,Thảo luận về tầm quan trọng và hay tính cấp bách của các nhiệm vụ {a-E2},2.4.7_b,,,,2.4.7,3,5,Tốt,3,Đạt,0,Không đạt
+2.4.7_c,outcome,2.4.7.c,Sẵn sàng tham gia thực hiện hiệu quả các nhiệm vụ {CP},2.4.7_c,,,,2.4.7,3,5,Tốt,3,Đạt,0,Không đạt
+2.5,group,"2.5 ĐẠO ĐỨC, CÔNG BẰNG VÀ CÁC TRÁCH NHIỆM KHÁC (3.8)",,2.5,,,,2,,,,,,,
+2.5.1,group,"2.5.1 Đạo đức, liêm chính và trách nhiệm xã hội (3.8)",,2.5.1,,,,2.5,,,,,,,
+2.5.1_a,outcome,2.5.1.a,Thể hiện các tiêu chuẩn và nguyên tắc về đạo đức của bản thân {A},2.5.1_a,,,,2.5.1,3,5,Tốt,3,Đạt,0,Không đạt
+2.5.1_b,outcome,2.5.1.b,Thể hiện sự can đảm để hành động theo nguyên tắc bất chấp hoàn cảnh không thuận lợi {A},2.5.1_b,,,,2.5.1,3,5,Tốt,3,Đạt,0,Không đạt
+2.5.1_c,outcome,2.5.1.c,Xác định các khả năng mâu thuẫn giữa những mệnh lệnh đạo đức nghề nghiệp {c-E2},2.5.1_c,,,,2.5.1,3,5,Tốt,3,Đạt,0,Không đạt
+2.5.1_d,outcome,2.5.1.d,Thể hiện sự cam kết để phục vụ {A},2.5.1_d,,,,2.5.1,3,5,Tốt,3,Đạt,0,Không đạt
+2.5.1_e,outcome,2.5.1.e,Thể hiện tính trung thực {A},2.5.1_e,,,,2.5.1,3,5,Tốt,3,Đạt,0,Không đạt
+2.5.1_f,outcome,2.5.1.f,Thể hiện cam kết giúp đỡ người khác và xã hội một cách rộng rãi {A},2.5.1_f,,,,2.5.1,3,5,Tốt,3,Đạt,0,Không đạt
+2.5.2,group,2.5.2 Hành xử chuyên nghiệp (3.8),,2.5.2,,,,2.5,,,,,,,
+2.5.2_a,outcome,2.5.2.a,Thực hiện phong cách chuyên nghiệp {a-S3},2.5.2_a,,,,2.5.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.5.2_b,outcome,2.5.2.b,Thể hiện sự lịch thiệp chuyên nghiệp {a-S3},2.5.2_b,,,,2.5.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.5.2_c,outcome,2.5.2.c,Xác định và phân loại các thông lệ quốc tế và tập quán tiếp xúc trong giao tiếp {c-S3},2.5.2_c,,,,2.5.2,3,5,Tốt,3,Đạt,0,Không đạt
+2.5.3,group,2.5.3 Chủ động cho tương lai và dự kiến cho cuộc đời (3.8),,2.5.3,,,,2.5,,,,,,,
+2.5.3_a,outcome,2.5.3.a,Trình bày tầm nhìn cá nhân cho tương lai của bản thân {a-S4},2.5.3_a,,,,2.5.3,3,5,Tốt,3,Đạt,0,Không đạt
+2.5.3_b,outcome,2.5.3.b,Thể hiện khát vọng sử dụng năng lực của bản thân như một nhà lãnh đạo {a-S4},2.5.3_b,,,,2.5.3,3,5,Tốt,3,Đạt,0,Không đạt
+2.5.3_c,outcome,2.5.3.c,Chuẩn bị hồ sơ các kỹ năng nghề nghiệp của bản thân {c-S5},2.5.3_c,,,,2.5.3,3,5,Tốt,3,Đạt,0,Không đạt
+2.5.3_d,outcome,2.5.3.d,Tiến hành xem xét đóng góp của bản thân cho xã hội {a-S4},2.5.3_d,,,,2.5.3,3,5,Tốt,3,Đạt,0,Không đạt
+2.5.3_e,outcome,2.5.3.e,Thực hiện truyền cảm hứng cho những người khác {CP},2.5.3_e,,,,2.5.3,3,5,Tốt,3,Đạt,0,Không đạt
+2.5.4,group,2.5.4 Cập nhật trong lĩnh vực kỹ thuật (3.8),,2.5.4,,,,2.5,,,,,,,
+2.5.4_a,outcome,2.5.4.a,So sánh các tác động tiềm năng của những khám phá khoa học mới {a-E2},2.5.4_a,,,,2.5.4,3,5,Tốt,3,Đạt,0,Không đạt
+2.5.4_b,outcome,2.5.4.b,So sánh tác động xã hội và kỹ thuật của các công nghệ và sáng kiến mới {a-E2},2.5.4_b,,,,2.5.4,3,5,Tốt,3,Đạt,0,Không đạt
+2.5.4_c,outcome,2.5.4.c,Thể hiện sự quen thuộc với thực hành công nghệ đương đại trong kỹ thuật {a-S3},2.5.4_c,,,,2.5.4,3,5,Tốt,3,Đạt,0,Không đạt
+2.5.4_d,outcome,2.5.4.d,Trình bày các mối liên kết giữa lý thuyết và thực hành kỹ thuật {a-E2},2.5.4_d,,,,2.5.4,3,5,Tốt,3,Đạt,0,Không đạt
+2.5.5,group,2.5.5 Công bằng và đa dạng (3.8),,2.5.5,,,,2.5,,,,,,,
+2.5.5_a,outcome,2.5.5.a,Thể hiện cam kết đối xử với người khác một cách công bằng {A},2.5.5_a,,,,2.5.5,3,5,Tốt,3,Đạt,0,Không đạt
+2.5.5_b,outcome,2.5.5.b,Bao quát sự đa dạng trong nhóm và đội ngũ làm việc {a-S3},2.5.5_b,,,,2.5.5,3,5,Tốt,3,Đạt,0,Không đạt
+2.5.5_c,outcome,2.5.5.c,Thảo luận về sự phục vụ các tầng lớp khác nhau {a-S1},2.5.5_c,,,,2.5.5,3,5,Tốt,3,Đạt,0,Không đạt
+2.5.6,group,2.5.6 Tin tưởng và trung thành (3.8),,2.5.6,,,,2.5,,,,,,,
+2.5.6_a,outcome,2.5.6.a,Thể hiện sự trung thành với đồng nghiệp và đội ngũ của mình {A},2.5.6_a,,,,2.5.6,3,5,Tốt,3,Đạt,0,Không đạt
+2.5.6_b,outcome,2.5.6.b,Thể hiện sự công nhận và nhấn mạnh sự đóng góp của những người khác {A},2.5.6_b,,,,2.5.6,3,5,Tốt,3,Đạt,0,Không đạt
+2.5.6_c,outcome,2.5.6.c,Hiểu và sẵn sàng thảo luận về làm việc để làm cho người khác thành công {A},2.5.6_c,,,,2.5.6,3,5,Tốt,3,Đạt,0,Không đạt
+3,group,3 KỸ NĂNG GIAO TIẾP LÀM VIỆC NHÓM VÀ GIAO TIẾP,,3,,,,,,,,,,,
+3.1,group,3.1 LÀM VIỆC NHÓM (3.8),,3.1,,,,3,,,,,,,
+3.1.1,group,3.1.1 Tổ chức nhóm hiệu quả (3.8),,3.1.1,,,,3.1,,,,,,,
+3.1.1_a,outcome,3.1.1.a,Lên lịch trình các giai đoạn hình thành vòng đời của nhóm {c-S5},3.1.1_a,,,,3.1.1,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.1_b,outcome,3.1.1.b,Lựa chọn các nhiệm vụ và các quy trình làm việc nhóm {b-S2},3.1.1_b,,,,3.1.1,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.1_c,outcome,3.1.1.c,Xác định vai trò và trách nhiệm của nhóm {c-S2},3.1.1_c,,,,3.1.1,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.1_d,outcome,3.1.1.d,"Phân tích mục tiêu, nhu cầu và đặc điểm (cách làm việc, sự khác biệt về văn hóa) của từng thành viên nhóm {c-E1}",3.1.1_d,,,,3.1.1,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.1_e,outcome,3.1.1.e,Phân tích các điểm mạnh và điểm yếu của nhóm và các thành viên {c-E1},3.1.1_e,,,,3.1.1,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.1_f,outcome,3.1.1.f,"Áp dụng các quy tắc nền tảng về tính bảo mật, trách nhiệm giải trình và sáng kiến của nhóm {a-S1}",3.1.1_f,,,,3.1.1,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.2,group,3.1.2 Hoạt động nhóm (3.8),,3.1.2,,,,3.1,,,,,,,
+3.1.2_a,outcome,3.1.2.a,Xác định và lựa chọn các mục tiêu và công việc cần làm {b-S2},3.1.2_a,,,,3.1.2,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.2_b,outcome,3.1.2.b,Tiến hành hoạch định và tạo điều kiện cho các cuộc họp có hiệu quả {CP},3.1.2_b,,,,3.1.2,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.2_c,outcome,3.1.2.c,Áp dụng các quy tắc nền tảng của nhóm {b-S1},3.1.2_c,,,,3.1.2,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.2_d,outcome,3.1.2.d,"Thực hành giao tiếp hiệu quả (lắng nghe, hợp tác, cung cấp và đạt được thông tin một cách chủ động) {CP}",3.1.2_d,,,,3.1.2,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.2_e,outcome,3.1.2.e,Thực hiện phản hồi tích cực và hiệu quả {a-S3},3.1.2_e,,,,3.1.2,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.2_f,outcome,3.1.2.f,"Tiến hành hoạch định, lên chương trình và thực hiện một đề án {CP}",3.1.2_f,,,,3.1.2,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.2_g,outcome,3.1.2.g,Lựa chọn các giải pháp cho các vấn đề (tính sáng tạo và ra quyết định của nhóm) {b-S2},3.1.2_g,,,,3.1.2,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.2_h,outcome,3.1.2.h,"Thảo luận về hòa giải, thương lượng, và giải quyết mâu thuẫn {CP}",3.1.2_h,,,,3.1.2,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.2_i,outcome,3.1.2.i,Tiến hành trao quyền cho những người trong nhóm {CP},3.1.2_i,,,,3.1.2,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.3,group,3.1.3 Trưởng thành và phát triển của nhóm (3.8),,3.1.3,,,,3.1,,,,,,,
+3.1.3_a,outcome,3.1.3.a,"Áp dụng các chiến lược cho sự suy ngẫm, đánh giá, và tự đánh giá {a-S1}",3.1.3_a,,,,3.1.3,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.3_b,outcome,3.1.3.b,Thực hành các kỹ năng cho sự duy trì và phát triển nhóm {c-S3},3.1.3_b,,,,3.1.3,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.3_c,outcome,3.1.3.c,Thực hành các kỹ năng cho sự phát triển cá nhân trong nhóm {c-S4},3.1.3_c,,,,3.1.3,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.3_d,outcome,3.1.3.d,Sử dụng các chiến lược cho giao tiếp và báo cáo của nhóm {a-S4},3.1.3_d,,,,3.1.3,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.4,group,3.1.4 Lãnh đạo nhóm (3.8),,3.1.4,,,,3.1,,,,,,,
+3.1.4_a,outcome,3.1.4.a,Lựa chọn các mục tiêu và mục đích của nhóm {a-S2},3.1.4_a,,,,3.1.4,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.4_b,outcome,3.1.4.b,Thực hành quản trị quá trình làm việc nhóm {CP},3.1.4_b,,,,3.1.4,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.4_c,outcome,3.1.4.c,"Tiên hành lãnh đạo và tạo điều kiện (chỉ đạo, huấn luyện, hỗ trợ, phân nhiệm) {CP}",3.1.4_c,,,,3.1.4,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.4_d,outcome,3.1.4.d,"Thực hiện các cách thức để thúc đẩy (khích lệ, nêu gương, sự công nhận, v.v.) {a-S4}",3.1.4_d,,,,3.1.4,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.4_e,outcome,3.1.4.e,Tiến hành giới thiệu nhóm với những người khác {CP},3.1.4_e,,,,3.1.4,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.4_f,outcome,3.1.4.f,Thảo luận về hướng dẫn và cố vấn {CP},3.1.4_f,,,,3.1.4,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.5,group,3.1.5 Hợp tác kỹ thuật và đa ngành (3.8),,3.1.5,,,,3.1,,,,,,,
+3.1.5_a,outcome,3.1.5.a,Thực hành làm việc trong các loại hình nhóm khác nhau {CP},3.1.5_a,,,,3.1.5,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.5_b,outcome,3.1.5.b,Các nhóm liên ngành (bao gồm phi kỹ thuật),3.1.5_b,,,,3.1.5,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.5_c,outcome,3.1.5.c,Nhóm nhỏ so với nhóm lớn,3.1.5_c,,,,3.1.5,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.5_d,outcome,3.1.5.d,"Các môi trường từ xa, phân tán, điện tử",3.1.5_d,,,,3.1.5,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.5_e,outcome,3.1.5.e,Tiến hành hợp tác kỹ thuật với các thành viên trong nhóm {CP},3.1.5_e,,,,3.1.5,3,5,Tốt,3,Đạt,0,Không đạt
+3.1.5_f,outcome,3.1.5.f,Thảo luận về làm việc với các thành viên và các nhóm phi kỹ thuật {CP},3.1.5_f,,,,3.1.5,3,5,Tốt,3,Đạt,0,Không đạt
+3.2,group,3.2 GIAO TIẾP (3.8),,3.2,,,,3,,,,,,,
+3.2.1,group,3.2.1 Chiến lược giao tiếp (3.8),,3.2.1,,,,3.2,,,,,,,
+3.2.1_a,outcome,3.2.1.a,Phân tích các tình huống giao tiếp {b-E1},3.2.1_a,,,,3.2.1,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.1_b,outcome,3.2.1.b,Xác định các mục đích giao tiếp {c-S2},3.2.1_b,,,,3.2.1,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.1_c,outcome,3.2.1.c,Phân tích các nhu cầu và đặc điểm của đối tượng giao tiếp {b-E1},3.2.1_c,,,,3.2.1,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.1_d,outcome,3.2.1.d,Phân tích các bối cảnh giao tiếp {b-E1},3.2.1_d,,,,3.2.1,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.1_e,outcome,3.2.1.e,Chọn chiến lược truyền thông {c-S2},3.2.1_e,,,,3.2.1,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.1_f,outcome,3.2.1.f,Chọn các sự kết hợp thích hợp các phương tiện truyền thông {c-S2},3.2.1_f,,,,3.2.1,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.1_g,outcome,3.2.1.g,"Chọn các hình thức giao tiếp (kiến nghị, phê bình, hợp tác, dẫn chứng tài liệu, giảng dạy) {c-S2}",3.2.1_g,,,,3.2.1,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.1_h,outcome,3.2.1.h,Xác định nội dung và tổ chức {c-S2},3.2.1_h,,,,3.2.1,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.2,group,3.2.2 Cấu trúc giao tiếp (3.8),,3.2.2,,,,3.2,,,,,,,
+3.2.2_a,outcome,3.2.2.a,Chọn lý lẽ logic và có sức thuyết phục {c-S2},3.2.2_a,,,,3.2.2,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.2_b,outcome,3.2.2.b,Sử dụng cấu trúc phù hợp và mối quan hệ giữa các ý tưởng {c-S4},3.2.2_b,,,,3.2.2,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.2_c,outcome,3.2.2.c,"Chọn các bằng chứng hỗ trợ phù hợp, đáng tin cậy, xác đáng {c-S2}",3.2.2_c,,,,3.2.2,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.2_d,outcome,3.2.2.d,"Sử dụng ngôn ngữ súc tích, quả quyết, chính xác, rõ ràng {a-S3}",3.2.2_d,,,,3.2.2,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.2_e,outcome,3.2.2.e,Phân tích các yếu tố ngôn từ (ví dụ theo xu hướng người nghe) {c-E1},3.2.2_e,,,,3.2.2,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.2_f,outcome,3.2.2.f,Xác định và phân loại các giao tiếp liên ngành và liên văn hóa {c-S3},3.2.2_f,,,,3.2.2,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.3,group,3.2.3 Giao tiếp bằng văn bản (3.8),,3.2.3,,,,3.2,,,,,,,
+3.2.3_a,outcome,3.2.3.a,Thực hiện viết mạch lạc và trôi chảy {CP},3.2.3_a,,,,3.2.3,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.3_b,outcome,3.2.3.b,"Thực hiện viết đúng chính tả, chấm câu, và ngữ pháp {CP}",3.2.3_b,,,,3.2.3,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.3_c,outcome,3.2.3.c,Tuân theo định dạng văn bản {CP},3.2.3_c,,,,3.2.3,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.3_d,outcome,3.2.3.d,Thực hành viết trong kỹ thuật {CP},3.2.3_d,,,,3.2.3,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.3_e,outcome,3.2.3.e,"Trình bàygiải thích về các loại văn bản khác nhau (chính thức và không chính thức, báo cáo, lý lịch, v.v.) {b-S1}",3.2.3_e,,,,3.2.3,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.4,group,3.2.4 Giao tiếp điện tử đa truyền thông (3.8),,3.2.4,,,,3.2,,,,,,,
+3.2.4_a,outcome,3.2.4.a,Thực hành chuẩn bị bài thuyết trình điện tử {CP},3.2.4_a,,,,3.2.4,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.4_b,outcome,3.2.4.b,"Áp dụng các chuẩn mực khi sử dụng thư điện tử, lời nhắn, và hội thảo qua video {c-S1}",3.2.4_b,,,,3.2.4,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.4_c,outcome,3.2.4.c,"Áp dụng các hình thức điện tử khác nhau (biểu đồ, trang web, v.v) {c-S1}",3.2.4_c,,,,3.2.4,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.5,group,3.2.5 Giao tiếp bằng đồ họa (3.8),,3.2.5,,,,3.2,,,,,,,
+3.2.5_a,outcome,3.2.5.a,Thực hiện các bản vẽ phác và bản vẽ {CP},3.2.5_a,,,,3.2.5,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.5_b,outcome,3.2.5.b,"Thực hành thiết kế bảng biểu, đồ thị, biểu đồ {CP}",3.2.5_b,,,,3.2.5,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.5_c,outcome,3.2.5.c,Giải thích bản vẽ kỹ thuật và tô màu {b-E1},3.2.5_c,,,,3.2.5,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.5_d,outcome,3.2.5.d,Thực hành sử dụng các công cụ đồ họa {CP},3.2.5_d,,,,3.2.5,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.6,group,3.2.6 Thuyết trình (3.8),,3.2.6,,,,3.2,,,,,,,
+3.2.6_a,outcome,3.2.6.a,"Thực hành chuẩn bị thuyết trình và phương tiện truyền thông hỗ trợ với ngôn ngữ, hình thức, thời gian, và cấu trúc phù hợp {CP}",3.2.6_a,,,,3.2.6,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.6_b,outcome,3.2.6.b,"Sử dụng giao tiếp phi ngôn từ thích hợp (cử chỉ, ánh mắt, tư thế) {b-S4}",3.2.6_b,,,,3.2.6,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.6_c,outcome,3.2.6.c,Thực hành trả lời các câu hỏi một cách hiệu quả {CP},3.2.6_c,,,,3.2.6,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.7,group,"3.2.7 Yêu cầu thông tin, lắng nghe và đối thoại (3.8)",,3.2.7,,,,3.2,,,,,,,
+3.2.7_a,outcome,3.2.7.a,Thực hành chú ý lắng nghe mọi người để hiểu rõ {CP},3.2.7_a,,,,3.2.7,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.7_b,outcome,3.2.7.b,Thực hành đặt câu hỏi thận trọng về người khác {CP},3.2.7_b,,,,3.2.7,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.7_c,outcome,3.2.7.c,Thực hiện xử lý các quan điểm khác nhau {CP},3.2.7_c,,,,3.2.7,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.7_d,outcome,3.2.7.d,Thực hiện đối thoại mang tính xây dựng {CP},3.2.7_d,,,,3.2.7,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.7_e,outcome,3.2.7.e,Chấp nhận và sẵn sàng thảo luận về những ý tưởng có thể hay hơn so với của riêng bạn {A},3.2.7_e,,,,3.2.7,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.8,group,"3.2.8 Đàm phán, thỏa hiệp và giải quyết xung đột (3.8)",,3.2.8,,,,3.2,,,,,,,
+3.2.8_a,outcome,3.2.8.a,"Tiến hành xác định bất đồng, căng thẳng hay xung đột tiềm tàng {CP}",3.2.8_a,,,,3.2.8,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.8_b,outcome,3.2.8.b,Thực hành đàm phán để tìm giải pháp chấp nhận được {CP},3.2.8_b,,,,3.2.8,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.8_c,outcome,3.2.8.c,Thực hiện việc đạt được thỏa thuận mà không làm ảnh hưởng đến nguyên tắc cơ bản {CP},3.2.8_c,,,,3.2.8,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.8_d,outcome,3.2.8.d,Thảo luận về khuếch tán xung đột {a-S3},3.2.8_d,,,,3.2.8,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.9,group,3.2.9 Vận động (3.8),,3.2.9,,,,3.2,,,,,,,
+3.2.9_a,outcome,3.2.9.a,Thực hiện giải thích rõ ràng quan điểm của bản thân {CP},3.2.9_a,,,,3.2.9,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.9_b,outcome,3.2.9.b,Tiến hành giải thích cách mà bản thân đạt được một giải thích hoặc kết luận {CP},3.2.9_b,,,,3.2.9,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.9_c,outcome,3.2.9.c,Thực hiện các đánh giá bạn hiểu sâu tới đâu {CP},3.2.9_c,,,,3.2.9,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.9_d,outcome,3.2.9.d,Tiến hành vận động theo đặc điểm của khán giả {CP},3.2.9_d,,,,3.2.9,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.9_e,outcome,3.2.9.e,3.2.10Thiết lập những liên kết và mạng liên kết đa dạng (3.8),3.2.9_e,,,,3.2.9,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.9_f,outcome,3.2.9.f,"Thực hiện đánh giá những người có kỹ năng, văn hóa hay kinh nghiệm khác nhau {CP}",3.2.9_f,,,,3.2.9,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.9_g,outcome,3.2.9.g,Tiến hành thu hút và liên kết các cá nhân khác nhau {CP},3.2.9_g,,,,3.2.9,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.9_h,outcome,3.2.9.h,Tiến hành xây dựng các mạng xã hội mở rộng {CP},3.2.9_h,,,,3.2.9,3,5,Tốt,3,Đạt,0,Không đạt
+3.2.9_i,outcome,3.2.9.i,Tiến hành trang bị và sử dụng các mạng liên kết để đạt được mục tiêu {CP},3.2.9_i,,,,3.2.9,3,5,Tốt,3,Đạt,0,Không đạt
+3.3,group,3.3 GIAO TIẾP BẰNG NGOẠI NGỮ (3.6),,3.3,,,,3,,,,,,,
+3.3.1,outcome,3.3.1,Thực hành giao tiếp bằng tiếng Anh (3.6) {CP},3.3.1,,,,3.3,3,5,Tốt,3,Đạt,0,Không đạt
+3.3.2,outcome,3.3.2,Hiểu về tầm quan trọng giao tiếp bằng ngôn ngữ khác trong khu vực (3.6) {CP},3.3.2,,,,3.3,3,5,Tốt,3,Đạt,0,Không đạt
+3.3.3,outcome,3.3.3,Hiểu về tầm quan trọng giao tiếp bằng các ngôn ngữ khác (3.6) {CP},3.3.3,,,,3.3,3,5,Tốt,3,Đạt,0,Không đạt
+4,group,"4 HÌNH THÀNH Ý TƯỞNG, THIẾT KẾ, THỰC HIỆN, VÀ VẬN HÀNH TRONG BỐI CẢNH DOANH NGHIỆP, XÃ HỘI VÀ MÔI TRƯỜNG  QUÁ TRÌNH SÁNG TẠO ",,4,,,,,,,,,,,
+4.1,group,"4.1 BỐI CẢNH BÊN NGOÀI, XÃ HỘI VÀ MÔI TRƯỜNG (3.2)",,4.1,,,,4,,,,,,,
+4.1.1,group,4.1.1 Vai trò và trách nhiệm của người kỹ sư (3.2),,4.1.1,,,,4.1,,,,,,,
+4.1.1_a,outcome,4.1.1.a,Thảo luận các mục tiêu và vai trò của ngành nghề kỹ thuật {A},4.1.1_a,,,,4.1.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.1.1_b,outcome,4.1.1.b,Thảo luận các trách nhiệm của kỹ sư đối với xã hội và một tương lai bền vững {A},4.1.1_b,,,,4.1.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.1.2,group,4.1.2 Tác động của kỹ thuật đối với xã hội và môi trường (3.2),,4.1.2,,,,4.1,,,,,,,
+4.1.2_a,outcome,4.1.2.a,"Thảo luận các tác động của kỹ thuật đối với môi trường, các hệ thống xã hội, tri thức và kinh tế trong nền văn hóa hiện đại {a-E1}",4.1.2_a,,,,4.1.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.1.3,group,4.1.3 Các quy định của xã hội đối với kỹ thuật (3.2),,4.1.3,,,,4.1,,,,,,,
+4.1.3_a,outcome,4.1.3.a,Xác định vai trò của xã hội và các tổ chức trong việc điều tiết kỹ thuật {A},4.1.3_a,,,,4.1.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.1.3_b,outcome,4.1.3.b,Xác định phương thức các hệ thống pháp lý và chính trị điều tiết và tác động đến kỹ thuật {c-E1},4.1.3_b,,,,4.1.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.1.3_c,outcome,4.1.3.c,Thảo luận chủ quan cách thức các tổ chức nghề nghiệp công nhận và đề ra các tiêu chuẩn {b-S3},4.1.3_c,,,,4.1.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.1.3_d,outcome,4.1.3.d,"Thảo luận chủ quan cách thức trí tuệ được tạo ra, sử dụng, và bảo vệ {b-S3}",4.1.3_d,,,,4.1.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.1.4,group,4.1.4 Bối cảnh lịch sử và văn hóa (3.2),,4.1.4,,,,4.1,,,,,,,
+4.1.4_a,outcome,4.1.4.a,"Trình bàythảo luận bản chất đa dạng và lịch sử của xã hội loài người cũng như các truyền thống văn học, triết học và nghệ thuật của họ {a-E2}",4.1.4_a,,,,4.1.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.1.4_b,outcome,4.1.4.b,"Trình bàythảo luận các luận điểm và phân tích phù hợp để thảo luận về ngôn ngữ, tư tưởng và các giá trị {a-S3}",4.1.4_b,,,,4.1.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.1.5,group,4.1.5 Các vấn đề và giá trị đương đại (3.2),,4.1.5,,,,4.1,,,,,,,
+4.1.5_a,outcome,4.1.5.a,"Thảo luận các vấn đề và các giá trị chính trị, xã hội, pháp lý và môi trường, đương đại và quan trọng {a-E1}",4.1.5_a,,,,4.1.5,3,5,Tốt,3,Đạt,0,Không đạt
+4.1.5_b,outcome,4.1.5.b,Trình bày các quá trình mà các giá trị đương đại được đặt ra và vai trò bản thân trong các quá trình này {a-S3},4.1.5_b,,,,4.1.5,3,5,Tốt,3,Đạt,0,Không đạt
+4.1.5_c,outcome,4.1.5.c,Trình bày các cơ chế để mở rộng và phổ biến kiến thức {a-S3},4.1.5_c,,,,4.1.5,3,5,Tốt,3,Đạt,0,Không đạt
+4.1.6,group,4.1.6 Phát triển một quan điểm toàn cầu (3.2),,4.1.6,,,,4.1,,,,,,,
+4.1.6_a,outcome,4.1.6.a,Thảo luận về sự quốc tế hóa của hoạt động con người {a-S3},4.1.6_a,,,,4.1.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.1.6_b,outcome,4.1.6.b,"Phân loại những điểm tương đồng và khác biệt trong các tập quán chính trị, xã hội, kinh tế, kinh doanh và kỹ thuật của các nền văn hóa khác nhau {c-E2}",4.1.6_b,,,,4.1.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.1.6_c,outcome,4.1.6.c,Xác định các thỏa thuận giữa liên minh quốc tế và giữa các chính phủ {c-S1},4.1.6_c,,,,4.1.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.1.7,group,4.1.7 Tính bền vững và nhu cầu phát triển bền vững (3.2),,4.1.7,,,,4.1,,,,,,,
+4.1.7_a,outcome,4.1.7.a,Trình bày định nghĩa về tính bền vững {a-E3},4.1.7_a,,,,4.1.7,3,5,Tốt,3,Đạt,0,Không đạt
+4.1.7_b,outcome,4.1.7.b,Trình bàyThảo luận mục tiêu và tầm quan trọng của tính bền vững {a-S5},4.1.7_b,,,,4.1.7,3,5,Tốt,3,Đạt,0,Không đạt
+4.1.7_c,outcome,4.1.7.c,Xác định các nguyên tắc của tính bền vững {c-S1},4.1.7_c,,,,4.1.7,3,5,Tốt,3,Đạt,0,Không đạt
+4.1.7_d,outcome,4.1.7.d,Tiến hành áp dụng các nguyên tắc của tính bền vững trong các nỗ lực kỹ thuật {CP},4.1.7_d,,,,4.1.7,3,5,Tốt,3,Đạt,0,Không đạt
+4.2,group,4.2 BỐI CẢNH DOANH NGHIỆP VÀ KINH DOANH (3.2),,4.2,,,,4,,,,,,,
+4.2.1,group,4.2.1 Tôn trọng các nền văn hóa doanh nghiệp khác nhau (3.2),,4.2.1,,,,4.2,,,,,,,
+4.2.1_a,outcome,4.2.1.a,"Xác địnhphân loại sự khác biệt về quy trình, văn hóa, và thước đo thành công trong các nền văn hóa doanh nghiệp khác nhau {c-E2}",4.2.1_a,,,,4.2.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.1_b,outcome,4.2.1.b,"Công ty so với giáo dục, so với chính phủ, so với phi lợi nhuậnphi chính phủ",4.2.1_b,,,,4.2.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.1_c,outcome,4.2.1.c,Điều tiết bởi thị trường so với điều tiết bởi chính sách,4.2.1_c,,,,4.2.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.1_d,outcome,4.2.1.d,Lớn so với nhỏ,4.2.1_d,,,,4.2.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.1_e,outcome,4.2.1.e,Tập trung so với phân quyền,4.2.1_e,,,,4.2.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.1_f,outcome,4.2.1.f,Nghiên cứu và phát triển so với vận hành,4.2.1_f,,,,4.2.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.1_g,outcome,4.2.1.g,"Giai đoạn bão hòa so với giai đoạn tăng trưởng, giai đoạn khởi đầu",4.2.1_g,,,,4.2.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.1_h,outcome,4.2.1.h,Chu trình phát triển dài hơn so với chu trình phát triển nhanh hơn,4.2.1_h,,,,4.2.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.1_i,outcome,4.2.1.i,Có hoặc không có lao động có tổ chức,4.2.1_i,,,,4.2.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.2,group,"4.2.2 Các bên liên quan, chiến lược và mục tiêu của doanh nghiệp (3.2)",,4.2.2,,,,4.2,,,,,,,
+4.2.2_a,outcome,4.2.2.a,"Xác địnhphân loại các bên liên quan và các bên thụ hưởng (chủ sở hữu, nhân viên, khách hàng, v.v.) {c-E1}",4.2.2_a,,,,4.2.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.2_b,outcome,4.2.2.b,Xác định nghĩa vụ của các bên liên quan {c-E2},4.2.2_b,,,,4.2.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.2_c,outcome,4.2.2.c,"Xác định sứ mạng, quy mô và mục tiêu của doanh nghiệp {c-S1}",4.2.2_c,,,,4.2.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.2_d,outcome,4.2.2.d,Xác định chiến lược của doanh nghiệp và phân bổ nguồn lực {c-S1},4.2.2_d,,,,4.2.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.2_e,outcome,4.2.2.e,Xác định năng lực chính yếu của doanh nghiệp và thị trường {c-S2},4.2.2_e,,,,4.2.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.2_f,outcome,4.2.2.f,Phân loại các liên minh quan trọng và mối quan hệ với nhà cung ứng {c-S4},4.2.2_f,,,,4.2.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.3,group,4.2.3 Có đầu óc kinh doanh thông qua kỹ thuật (3.2),,4.2.3,,,,4.2,,,,,,,
+4.2.3_a,outcome,4.2.3.a,Xác định các cơ hội kinh doanh nhờ công nghệ {c-S2},4.2.3_a,,,,4.2.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.3_b,outcome,4.2.3.b,"Xác định các công nghệ có thể tạo ra các sản phẩm, và hệ thống mới {c-S2}",4.2.3_b,,,,4.2.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.3_c,outcome,4.2.3.c,Trình bàythảo luận về tài chính trong kinh doanh và tổ chức {a-S3},4.2.3_c,,,,4.2.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.4,group,4.2.4 Làm việc trong các tổ chức (3.2),,4.2.4,,,,4.2,,,,,,,
+4.2.4_a,outcome,4.2.4.a,Diễn giải chức năng của quản trị {b-S3},4.2.4_a,,,,4.2.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.4_b,outcome,4.2.4.b,Giải thích các vai trò và trách nhiệm khác nhau trong một tổ chức {b-S4},4.2.4_b,,,,4.2.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.4_c,outcome,4.2.4.c,Thảo luận các vai trò của các tổ chức theo chức năng và theo chương trình {CP},4.2.4_c,,,,4.2.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.4_d,outcome,4.2.4.d,Thảo luận về làm việc hiệu quả trong hệ thống cấp bậc và các tổ chức {CP},4.2.4_d,,,,4.2.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.4_e,outcome,4.2.4.e,"Thảo luận về sự thay đổi, năng động, và tiến triển trong các tổ chức {CP}",4.2.4_e,,,,4.2.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.5,group,4.2.5 Làm việc trong các tổ chức quốc tế (3.2),,4.2.5,,,,4.2,,,,,,,
+4.2.5_a,outcome,4.2.5.a,Diễn giải văn hóa và truyền thống của doanh nghiệp như là một sự phản ánh của nền văn hóa dân tộc {b-E1},4.2.5_a,,,,4.2.5,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.5_b,outcome,4.2.5.b,Thảo luận về tương đương trình độ và bằng cấp {a-S4},4.2.5_b,,,,4.2.5,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.5_c,outcome,4.2.5.c,Trình bày các quy định của chính phủ về làm việc quốc tế {a-S4},4.2.5_c,,,,4.2.5,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.6,group,4.2.6 Phát triển công nghệ mới và đánh giá (3.2),,4.2.6,,,,4.2,,,,,,,
+4.2.6_a,outcome,4.2.6.a,Trình bày về quá trình nghiên cứu và phát triển công nghệ {a-E3},4.2.6_a,,,,4.2.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.6_b,outcome,4.2.6.b,Tiến hành xác định và đánh giá các công nghệ {CP},4.2.6_b,,,,4.2.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.6_c,outcome,4.2.6.c,Thảo luận về lộ trình phát triển công nghệ {a-E1},4.2.6_c,,,,4.2.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.6_d,outcome,4.2.6.d,Thảo luận về chế độ sở hữu trí tuệ và bằng sáng chế {a-S4},4.2.6_d,,,,4.2.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.7,group,4.2.7 Tài chính và kinh tế của dự án kỹ thuật (3.2),,4.2.7,,,,4.2,,,,,,,
+4.2.7_a,outcome,4.2.7.a,Xác định mục tiêu và các số liệu về tài chính và quản lý {c-S5},4.2.7_a,,,,4.2.7,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.7_b,outcome,4.2.7.b,"Thảo luận về tài chính của dự án - đầu tư, lợi nhuận, thời gian {a-E3}",4.2.7_b,,,,4.2.7,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.7_c,outcome,4.2.7.c,Tiến hành lên kế hoạch tài chính và kiểm soát {CP},4.2.7_c,,,,4.2.7,3,5,Tốt,3,Đạt,0,Không đạt
+4.2.7_d,outcome,4.2.7.d,"Xác định tác động của dự án đến tài chính doanh nghiệp, thu nhập {c-E1}",4.2.7_d,,,,4.2.7,3,5,Tốt,3,Đạt,0,Không đạt
+4.3,group,"4.3 HÌNH THÀNH Ý TƯỞNG, KỸ THUẬT HỆ THỐNG VÀ QUẢN LÝ (3.4)",,4.3,,,,4,,,,,,,
+4.3.1,group,4.3.1 Hiểu nhu cầu và thiết lập các mục tiêu (3.2),,4.3.1,,,,4.3,,,,,,,
+4.3.1_a,outcome,4.3.1.a,Xác định các nhu cầu và cơ hội {c-E3},4.3.1_a,,,,4.3.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.1_b,outcome,4.3.1.b,"Nhu cầu khách hàng và thị trường {c-E3, b-E1}",4.3.1_b,,,,4.3.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.1_c,outcome,4.3.1.c,Các cơ hội xuất phát từ công nghệ mới hay các nhu cầu tiềm tàng {c-S2},4.3.1_c,,,,4.3.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.1_d,outcome,4.3.1.d,Nhu cầu từ môi trường {c-E3},4.3.1_d,,,,4.3.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.1_e,outcome,4.3.1.e,Thảo luận các yếu tố thiết lập bối cảnh mục tiêu của hệ thống {a-E1},4.3.1_e,,,,4.3.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.1_f,outcome,4.3.1.f,"Các mục tiêu, chiến lược, khả năng, và các liên minh của doanh nghiệp {c-E1}",4.3.1_f,,,,4.3.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.1_g,outcome,4.3.1.g,Các đối thủ cạnh tranh và thông tin đối sánh {c-E1},4.3.1_g,,,,4.3.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.1_h,outcome,4.3.1.h,"Các ảnh hưởng về đạo đức, xã hội, môi trường, pháp lý và luật lệ {b-E1}",4.3.1_h,,,,4.3.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.1_i,outcome,4.3.1.i,"Xác suất thay đổi các yếu tố ảnh hưởng đến hệ thống, các mục tiêu và nguồn lực sẵn có của nó {a-E3}",4.3.1_i,,,,4.3.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.1_j,outcome,4.3.1.j,Diễn giải chủ quan các mục tiêu và yêu cầu của hệ thống {b-S2},4.3.1_j,,,,4.3.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.1_k,outcome,4.3.1.k,Ngôn ngữ thể thức của các mục tiêu và yêu cầu {c-S1},4.3.1_k,,,,4.3.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.1_l,outcome,4.3.1.l,"Những mục tiêu ban đầu (dựa trên nhu cầu, cơ hội và các ảnh hưởng khác) {b-S2}",4.3.1_l,,,,4.3.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.1_m,outcome,4.3.1.m,Đo lường hiệu suất của hệ thống {a-S1},4.3.1_m,,,,4.3.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.1_n,outcome,4.3.1.n,Sự hoàn chỉnh và nhất quán trong các yêu cầu {b-E3},4.3.1_n,,,,4.3.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.2,group,"4.3.2 Xác định chức năng, nguyên lý và kiến trúc (3.2)",,4.3.2,,,,4.3,,,,,,,
+4.3.2_a,outcome,4.3.2.a,Xác định các chức năng cần thiết của hệ thống (và các đặc tính hoạt động) {c-S2},4.3.2_a,,,,4.3.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.2_b,outcome,4.3.2.b,Diễn giải các nguyên lý của hệ thống {b-S2},4.3.2_b,,,,4.3.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.2_c,outcome,4.3.2.c,Xác định mức độ công nghệ phù hợp {c-S2},4.3.2_c,,,,4.3.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.2_d,outcome,4.3.2.d,Tiến hành cân đối giữa các nguyên lý và sự tái tổ hợp của chúng {CP},4.3.2_d,,,,4.3.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.2_e,outcome,4.3.2.e,Tiến hành tổ chức và cấu trúc ở cấp độ cao {c-S2},4.3.2_e,,,,4.3.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.2_f,outcome,4.3.2.f,"Thảo luận về sự phân tách tổ chức thành các thành phần, phân nhiệm cho các thành phần, và xác định các giao diện {CP}",4.3.2_f,,,,4.3.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.3,group,"4.3.3 Kỹ thuật hệ thống, mô hình hóa và các giao diện (3.2)",,4.3.3,,,,4.3,,,,,,,
+4.3.3_a,outcome,4.3.3.a,Xác định các mô hình phù hợp về hiệu suất kỹ thuật và các thuộc tính khác {c-S2},4.3.3_a,,,,4.3.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.3_b,outcome,4.3.3.b,Xem xét thực hiện và vận hành {a-S3},4.3.3_b,,,,4.3.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.3_c,outcome,4.3.3.c,"Thảo luận về giá trị và chi phí trong vòng đời (thiết kế, thực hiện, vận hành, cơ hội v.v.) {a-E1}",4.3.3_c,,,,4.3.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.3_d,outcome,4.3.3.d,"Tiến hành cân đối giữa các mục tiêu, chức năng, nguyên lý và cấu trúc khác nhau, và lặp đi lặp lại cho đến khi có được kết quả thống nhất cuối cùng {CP}",4.3.3_d,,,,4.3.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.3_e,outcome,4.3.3.e,Xác định các kế hoạch để quản lý giao diện {c-S5},4.3.3_e,,,,4.3.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.4,group,4.3.4 Quản lý phát triển dự án (3.2),,4.3.4,,,,4.3,,,,,,,
+4.3.4_a,outcome,4.3.4.a,"Tiến hành kiểm soát dự án đảm bảo chi phí, hiệu suất, và thời biểu {CP}",4.3.4_a,,,,4.3.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.4_b,outcome,4.3.4.b,Thảo luận về các điểm chuyển tiếp phù hợp và xem xét lại {a-S3},4.3.4_b,,,,4.3.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.4_c,outcome,4.3.4.c,Thảo luận về cấu hình quản lý và tài liệu {CP},4.3.4_c,,,,4.3.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.4_d,outcome,4.3.4.d,Diễn giải chủ quan về hiệu suất so với mức tiêu chuẩn {b-E2},4.3.4_d,,,,4.3.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.4_e,outcome,4.3.4.e,Tiến hành công nhận giá trị đạt được {CP},4.3.4_e,,,,4.3.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.4_f,outcome,4.3.4.f,Thảo luận về ước lượng và phân bổ các nguồn lực {CP},4.3.4_f,,,,4.3.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.4_g,outcome,4.3.4.g,Xác định các rủi ro và các lựa chọn thay thế {c-E1},4.3.4_g,,,,4.3.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.3.4_h,outcome,4.3.4.h,Thảo luận những cải tiến có thể cho quá trình phát triển {a-S2},4.3.4_h,,,,4.3.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.4,group,4.4 THIẾT KẾ (3.5),,4.4,,,,4,,,,,,,
+4.4.1,group,4.4.1 Quá trình thiết kế (3.5),,4.4.1,,,,4.4,,,,,,,
+4.4.1_a,outcome,4.4.1.a,Xác định các yêu cầu cho mỗi thành phần hay bộ phận được rút ra từ các mục tiêu và yêu cầu ở mức độ hệ thống {c-S2},4.4.1_a,,,,4.4.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.1_b,outcome,4.4.1.b,Trình bày các lựa chọn thay thế trong thiết kế {a-E1},4.4.1_b,,,,4.4.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.1_c,outcome,4.4.1.c,Định dạng thiết kế ban đầu {c-S2},4.4.1_c,,,,4.4.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.1_d,outcome,4.4.1.d,Trình bày về vòng đời trong thiết kế {b-E1},4.4.1_d,,,,4.4.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.1_e,outcome,4.4.1.e,Trình bày các mẫu thử và vật phẩm thí nghiệm trong quá trình phát triển thiết kế {a-S4},4.4.1_e,,,,4.4.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.1_f,outcome,4.4.1.f,Tiến hành tối ưu hóa phù hợp với những hạn chế {CP},4.4.1_f,,,,4.4.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.1_g,outcome,4.4.1.g,Thực hiện lặp đi lặp lại cho đến khi đạt kết quả {CP},4.4.1_g,,,,4.4.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.1_h,outcome,4.4.1.h,Chuẩn bị thiết kế hoàn chỉnh {b-S5},4.4.1_h,,,,4.4.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.1_i,outcome,4.4.1.i,Thực hiện đáp ứng yêu cầu thay đổi {CP},4.4.1_i,,,,4.4.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.2,group,4.4.2 Các giai đoạn của quá trình thiết kế và phương pháp tiếp cận (3.5),,4.4.2,,,,4.4,,,,,,,
+4.4.2_a,outcome,4.4.2.a,"Trình bày hoạt động trong các giai đoạn của thiết kế hệ thống (ý tưởng, thiết kế sơ bộ, và chi tiết) {a-S2}",4.4.2_a,,,,4.4.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.2_b,outcome,4.4.2.b,"Trình bày các mô hình quá trình phù hợp cho các đề án phát triển cụ thể (mô hình thác nước, mô hình đường xoắn ốc, mô hình đồng thời) {a-S1}",4.4.2_b,,,,4.4.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.2_c,outcome,4.4.2.c,"Thảo luận các quá trình cho các sản phẩm đơn lẻ, sản phẩm nền, hay sản phẩm chỉnh sửa {a-S3}",4.4.2_c,,,,4.4.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.3,group,4.4.3 Vận dụng kiến thức trong thiết kế (3.5),,4.4.3,,,,4.4,,,,,,,
+4.4.3_a,outcome,4.4.3.a,Sử dụng kiến thức kỹ thuật và khoa học {c-S4},4.4.3_a,,,,4.4.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.3_b,outcome,4.4.3.b,"Tiến hành cách thức tư duy (giải quyết vấn đề, điều tra, tư duy tầm hệ thống, sáng tạo và suy xét) {CP}",4.4.3_b,,,,4.4.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.3_c,outcome,4.4.3.c,"Thảo luận công việc ưu tiên trong lĩnh vực, sự tiêu chuẩn hóa và tái sử dụng các thiết kế (bao gồm kỹ thuật ngược và tái chế tạo, tái thiết kế) {a-S4}",4.4.3_c,,,,4.4.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.3_d,outcome,4.4.3.d,Tiến hành thu thập kiến thức thiết kế {CP},4.4.3_d,,,,4.4.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.4,group,4.4.4 Thiết kế chuyên ngành (3.5),,4.4.4,,,,4.4,,,,,,,
+4.4.4_a,outcome,4.4.4.a,"Lựa chọn các kỹ thuật, dụng cụ, và quy trình phù hợp {c-S2}",4.4.4_a,,,,4.4.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.4_b,outcome,4.4.4.b,Thực hiện hiệu chỉnh và phê chuẩn dụng cụ thiết kế {a-S3},4.4.4_b,,,,4.4.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.4_c,outcome,4.4.4.c,Tiến hành phân tích định lượng các lựa chọn thay thế {CP},4.4.4_c,,,,4.4.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.4_d,outcome,4.4.4.d,"Tiến hành mô hình hóa, mô phỏng, và kiểm tra {CP}",4.4.4_d,,,,4.4.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.4_e,outcome,4.4.4.e,Thảo luận cải tiến phân tích thiết kế {CP},4.4.4_e,,,,4.4.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.5,group,4.4.5 Thiết kế mang tính đa ngành (3.5),,4.4.5,,,,4.4,,,,,,,
+4.4.5_a,outcome,4.4.5.a,Phân tích sự tương tác giữa các chuyên ngành {c-E1},4.4.5_a,,,,4.4.5,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.5_b,outcome,4.4.5.b,Xác định các quy ước và giả định khác nhau {c-E2},4.4.5_b,,,,4.4.5,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.5_c,outcome,4.4.5.c,So sánh khác biệt về tính hoàn hảo của các mô hình chuyên ngành {a-E2},4.4.5_c,,,,4.4.5,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.5_d,outcome,4.4.5.d,Thảo luận các môi trường thiết kế đa ngành {a-S4},4.4.5_d,,,,4.4.5,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.5_e,outcome,4.4.5.e,Thảo luận về thiết kế đa ngành {CP},4.4.5_e,,,,4.4.5,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.6,group,"4.4.6 Thiết kế đáp ứng bền vững, an toàn, thẩm mỹ, vận hành và các mục tiêu khác (3.5)",,4.4.6,,,,4.4,,,,,,,
+4.4.6_a,outcome,4.4.6.a,Thực hiện thiết kế đáp ứng {CP},4.4.6_a,,,,4.4.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.6_b,outcome,4.4.6.b,"Tính năng, chất lượng, sự vững chắc, chi phí và giá trị của vòng đời",4.4.6_b,,,,4.4.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.6_c,outcome,4.4.6.c,Bền vững,4.4.6_c,,,,4.4.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.6_d,outcome,4.4.6.d,An toàn và bảo mật,4.4.6_d,,,,4.4.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.6_e,outcome,4.4.6.e,Thẩm mỹ,4.4.6_e,,,,4.4.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.6_f,outcome,4.4.6.f,"Yếu tố con người, tương tác và giám sát",4.4.6_f,,,,4.4.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.6_g,outcome,4.4.6.g,"Thực hiện, phê chuẩn, kiểm tra, và sự bền vững đối với môi trường",4.4.6_g,,,,4.4.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.6_h,outcome,4.4.6.h,Sự vận hành,4.4.6_h,,,,4.4.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.6_i,outcome,4.4.6.i,"Khả năng duy trì, tính tin cậy, và độ tin cậy",4.4.6_i,,,,4.4.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.6_j,outcome,4.4.6.j,"Tiến triển, cải tiến",4.4.6_j,,,,4.4.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.4.6_k,outcome,4.4.6.k,"Đào thải, tái sử dụng và tái chế",4.4.6_k,,,,4.4.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.5,group,4.5 THỰC HIỆN (3.3),,4.5,,,,4,,,,,,,
+4.5.1,group,4.5.1 Thiết kế quá trình thực hiện bền vững (3.3),,4.5.1,,,,4.5,,,,,,,
+4.5.1_a,outcome,4.5.1.a,"Lựa chọn các mục tiêu và đo lường tính năng, chi phí, và chất lượng của việc thực hiện {c-S2}",4.5.1_a,,,,4.5.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.1_b,outcome,4.5.1.b,Định hình thiết kế hệ thống {c-S2},4.5.1_b,,,,4.5.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.1_c,outcome,4.5.1.c,Phân bổ nhiệm vụ và bố trí đơn vịbộ phận,4.5.1_c,,,,4.5.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.1_d,outcome,4.5.1.d,Chuyền làm việc,4.5.1_d,,,,4.5.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.1_e,outcome,4.5.1.e,Xem xét đối với người sử dụngngười vận hành,4.5.1_e,,,,4.5.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.1_f,outcome,4.5.1.f,Diễn giải chủ quan về tính bền vững {b-E3},4.5.1_f,,,,4.5.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.2,group,4.5.2 Quá trình sản xuất phần cứng (3.3),,4.5.2,,,,4.5,,,,,,,
+4.5.2_a,outcome,4.5.2.a,Chuẩn bị chế tạo các bộ phận {a-S5},4.5.2_a,,,,4.5.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.2_b,outcome,4.5.2.b,Chuẩn bị lắp ráp các bộ phận thành những thành phần lớn hơn {a-S5},4.5.2_b,,,,4.5.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.2_c,outcome,4.5.2.c,"Thảo luận về dung sai, biên độ biến đổi, đặc tính chính yếu, quy trình kiểm soát dùng thống kê {a-S4}",4.5.2_c,,,,4.5.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.3,group,4.5.3 Quá trình thực hiện phần mềm (3.3),,4.5.3,,,,4.5,,,,,,,
+4.5.3_a,outcome,4.5.3.a,"Tiến hành phân nhỏ các thành phần ở mức độ cao thành các mô-đun thiết kế (bao gồm thuật toán, và cấu trúc dữ liệu) {CP}",4.5.3_a,,,,4.5.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.3_b,outcome,4.5.3.b,"Thảo luận về thuật toán (cấu trúc dữ liệu, dòng điều khiển, dòng dữ liệu) {a-S1}",4.5.3_b,,,,4.5.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.3_c,outcome,4.5.3.c,Thảo luận ngôn ngữ lập trình và mô hìnhkiểu mẫu {a-S1},4.5.3_c,,,,4.5.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.3_d,outcome,4.5.3.d,Thực hiện thiết kế ở cấp độ thấp (coding) {a-S3},4.5.3_d,,,,4.5.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.3_e,outcome,4.5.3.e,Thực hiện xây dựng hệ thống {a-S3},4.5.3_e,,,,4.5.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.4,group,4.5.4 Tích hợp phần mềm (3.3),,4.5.4,,,,4.5,,,,,,,
+4.5.4_a,outcome,4.5.4.a,"Chuẩn bị tích hợp phần mềm vào phần cứng điện tử (quy mô của bộ xử lý, truyền thông, v.v.) {a-S5}",4.5.4_a,,,,4.5.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.4_b,outcome,4.5.4.b,"Chuẩn bị tích hợp phần mềm với bộ cảm biến, bộ kích hoạt, và các phần cứng cơ khí {a-S5}",4.5.4_b,,,,4.5.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.4_c,outcome,4.5.4.c,Thảo luận chức năng và độ an toàn của phần cứng phần mềm {a-E1},4.5.4_c,,,,4.5.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.5,group,"4.5.5 Thử nghiệm, kiểm tra, phê chuẩn, chứng nhận (3.3)",,4.5.5,,,,4.5,,,,,,,
+4.5.5_a,outcome,4.5.5.a,"Tiến hành các thủ tục kiểm tra và phân tích (phần cứng so với phần mềm, mức độ chấp nhận được so với mức độ có chất lượng) {a-S3}",4.5.5_a,,,,4.5.5,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.5_b,outcome,4.5.5.b,Thực hiện kiểm tra tính năng so với yêu cầu của hệ thống {a-S3},4.5.5_b,,,,4.5.5,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.5_c,outcome,4.5.5.c,Thảo luận về hiệu lực của tính năng so với yêu cầu khách hàng {a-S3},4.5.5_c,,,,4.5.5,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.5_d,outcome,4.5.5.d,Diễn giải về các chứng nhận đối với các tiêu chuẩn {a-S3},4.5.5_d,,,,4.5.5,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.6,group,4.5.6 Quản lý quá trình thực hiện (3.3),,4.5.6,,,,4.5,,,,,,,
+4.5.6_a,outcome,4.5.6.a,Thảo luận tổ chức và cơ cấu cho việc thực hiện {a-S2},4.5.6_a,,,,4.5.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.6_b,outcome,4.5.6.b,"Trình bày nguồn cung cấp, hợp tác {a-S2}",4.5.6_b,,,,4.5.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.6_c,outcome,4.5.6.c,Trình bày chuỗi cung ứng và vận trù {a-S2},4.5.6_c,,,,4.5.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.6_d,outcome,4.5.6.d,"Định hình kiểm soát chi phí trong thực hiện, thực hiện và thời gian biểu {c-S3}",4.5.6_d,,,,4.5.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.6_e,outcome,4.5.6.e,Diễn giải chủ quan về đảm bảo chất lượng {b-S4},4.5.6_e,,,,4.5.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.6_f,outcome,4.5.6.f,Diễn giải chủ quan về sức khỏe con người và an toàn {b-S4},4.5.6_f,,,,4.5.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.6_g,outcome,4.5.6.g,Diễn giải chủ quan về môi trường bảo mật {b-S4},4.5.6_g,,,,4.5.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.5.6_h,outcome,4.5.6.h,Xác định các cải tiến quá trình triển khai có thể thực hiện được {c-S2},4.5.6_h,,,,4.5.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.6,group,4.6 VẬN HÀNH (3.3),,4.6,,,,4,,,,,,,
+4.6.1,group,4.6.1 Thiết kế và tối ưu hóa vận hành bền vững và an toàn (3.3),,4.6.1,,,,4.6,,,,,,,
+4.6.1_a,outcome,4.6.1.a,"Lựa chọn các mục tiêu và đo lường tính năng hoạt động, chi phí, và giá trị của vận hành {b-S2}",4.6.1_a,,,,4.6.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.1_b,outcome,4.6.1.b,Diễn giải chủ quan về vận hành bền vững {b-E3},4.6.1_b,,,,4.6.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.1_c,outcome,4.6.1.c,Diễn giải chủ quan về vận hành an toàn và bảo mật {b-E3},4.6.1_c,,,,4.6.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.1_d,outcome,4.6.1.d,Diễn giải về cấu trúc và phát triển quy trình vận hành {a-S2},4.6.1_d,,,,4.6.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.1_e,outcome,4.6.1.e,Tiến hành phân tích và mô hình hóa vận hành (và sứ mạng) {CP},4.6.1_e,,,,4.6.1,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.2,group,4.6.2 Huấn luyện và vận hành (3.3),,4.6.2,,,,4.6,,,,,,,
+4.6.2_a,outcome,4.6.2.a,Tiến hành huấn luyện để vận hành chuyên nghiệp {CP},4.6.2_a,,,,4.6.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.2_b,outcome,4.6.2.b,Mô phỏng,4.6.2_b,,,,4.6.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.2_c,outcome,4.6.2.c,Hướng dẫn và chương trình,4.6.2_c,,,,4.6.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.2_d,outcome,4.6.2.d,Các thủ tục,4.6.2_d,,,,4.6.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.2_e,outcome,4.6.2.e,Thảo luận về đào tạo để khách hàng có thể vận hành {a-S3},4.6.2_e,,,,4.6.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.2_f,outcome,4.6.2.f,Thảo luận các quy trình vận hành {a-S3},4.6.2_f,,,,4.6.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.2_g,outcome,4.6.2.g,Xác định sự tương tác của quy trình vận hành {c-E1},4.6.2_g,,,,4.6.2,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.3,group,4.6.3 Hỗ trợ vòng đời của hệ thống (3.3),,4.6.3,,,,4.6,,,,,,,
+4.6.3_a,outcome,4.6.3.a,Trình bày về sự bảo trì và hậu cần {a-S5},4.6.3_a,,,,4.6.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.3_b,outcome,4.6.3.b,Trình bày các tính năng và độ tin cậy của vòng đời {a-E1},4.6.3_b,,,,4.6.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.3_c,outcome,4.6.3.c,Trình bày giá trị và các chi phí của vòng đời {a-E1},4.6.3_c,,,,4.6.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.3_d,outcome,4.6.3.d,Tiến hành thu nhận sự phản hồi để tạo điều kiện cho việc cải tiến hệ thống {CP},4.6.3_d,,,,4.6.3,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.4,group,4.6.4 Cải tiến và tiến triển của hệ thống (3.3),,4.6.4,,,,4.6,,,,,,,
+4.6.4_a,outcome,4.6.4.a,Thảo luận về sự cải tiến sản phẩm được hoạch định trước {a-S5},4.6.4_a,,,,4.6.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.4_b,outcome,4.6.4.b,Xác định các cải tiến dựa trên các nhu cầu nhận thấy được từ vận hành {c-S5},4.6.4_b,,,,4.6.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.4_c,outcome,4.6.4.c,Xác định sự tiến triển trong việc nâng cấp hệ thống {c-S5},4.6.4_c,,,,4.6.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.4_d,outcome,4.6.4.d,Xác định các cải tiến giải pháp để xử lý các trường hợp bất ngờ xảy ra từ vận hành {c-S4},4.6.4_d,,,,4.6.4,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.5,group,4.6.5 Những vấn đề về đào thải và cuối đời (3.3),,4.6.5,,,,4.6,,,,,,,
+4.6.5_a,outcome,4.6.5.a,Phân tích các vấn đề cuối đời {b-E1},4.6.5_a,,,,4.6.5,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.5_b,outcome,4.6.5.b,Xác định các lựa chọn để đào thải {c-S5},4.6.5_b,,,,4.6.5,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.5_c,outcome,4.6.5.c,Trình bày chủ quan về giá trị còn lại vào cuối đời {b-E1},4.6.5_c,,,,4.6.5,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.5_d,outcome,4.6.5.d,"Thảo luận, cân nhắc về môi trường cho việc đào thải {c-E2}",4.6.5_d,,,,4.6.5,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.6,group,4.6.6 Quản lý vận hành (3.3),,4.6.6,,,,4.6,,,,,,,
+4.6.6_a,outcome,4.6.6.a,Giải thích tổ chức và cơ cấu cho việc vận hành {a-S2},4.6.6_a,,,,4.6.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.6_b,outcome,4.6.6.b,Xác định các hợp tác và liên minh {c-S2},4.6.6_b,,,,4.6.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.6_c,outcome,4.6.6.c,"Định hình kiểm soát chi phí vận hành, tính năng, và thời gian biểu {c-S3}",4.6.6_c,,,,4.6.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.6_d,outcome,4.6.6.d,Diễn giải chủ quan về đảm bảo chất lượng và an toàn {b-S4},4.6.6_d,,,,4.6.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.6_e,outcome,4.6.6.e,Trình bày các cải tiến quá trình vận hành có thể khả thi {a-S2},4.6.6_e,,,,4.6.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.6_f,outcome,4.6.6.f,Trình bày về quản lý vòng đời {a-S3},4.6.6_f,,,,4.6.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.6_g,outcome,4.6.6.g,Thảo luận về sức khỏe con người và an toàn {a-S3},4.6.6_g,,,,4.6.6,3,5,Tốt,3,Đạt,0,Không đạt
+4.6.6_h,outcome,4.6.6.h,Thảo luận về môi trường bảo mật {a-S3},4.6.6_h,,,,4.6.6,3,5,Tốt,3,Đạt,0,Không đạt
